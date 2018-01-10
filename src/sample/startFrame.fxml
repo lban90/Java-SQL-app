@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:controller="sample.Controller" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="connectToDatabase" layoutX="14.0" layoutY="400.0" mnemonicParsing="false" onAction="#connectToDatabase"  prefHeight="300.0" prefWidth="600.0" text="Start" />
+      <Label fx:id="lDataAdress" layoutX="14.0" layoutY="97.0" prefHeight="21.0" prefWidth="600.0" text="Enter the datebase adress:" />
+      <TextField fx:id="tfDatabaseAdress" layoutX="14.0" layoutY="118.0" prefHeight="31.0" prefWidth="600.0" />
+      <Label fx:id="lUser" layoutX="14.0" layoutY="161.0" prefHeight="21.0" prefWidth="600.0" text="Enter the username:" />
+      <TextField fx:id="tfUser" layoutX="14.0" layoutY="182.0" prefHeight="31.0" prefWidth="600.0" />
+      <Label fx:id="lPassword" layoutX="14.0" layoutY="223.0" prefHeight="21.0" prefWidth="600.0" text="Enter the password:" />
+      <TextField fx:id="tfPassword" layoutX="14.0" layoutY="244.0" prefHeight="31.0" prefWidth="600.0" />
+      <TextArea fx:id="taPage1" layoutX="638.0" layoutY="23.0" prefHeight="758.0" prefWidth="551.0" />
+      <Label fx:id="lText" layoutX="14.0" layoutY="23.0" prefHeight="46.0" prefWidth="600.0" text="Connect to the database" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

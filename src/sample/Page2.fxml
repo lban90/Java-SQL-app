@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="taPage2" layoutX="600.0" layoutY="82.0" prefHeight="697.0" prefWidth="586.0" />
+      <Button fx:id="back1" layoutX="600.0" layoutY="14.0" mnemonicParsing="false" onAction="#goBackPage1" prefHeight="37.0" prefWidth="276.0" text="BACK" />
+      <Label fx:id="lTitluPage2" layoutX="14.0" layoutY="22.0" prefHeight="21.0" prefWidth="568.0" text="BASIC TRANSACTIONS">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="showSchemaStructure" layoutX="14.0" layoutY="82.0" mnemonicParsing="false" onAction="#showSchemaStructure" prefHeight="31.0" prefWidth="568.0" text="SHOW SCHEMA STRUCTURE" />
+      <Button fx:id="close" layoutX="900.0" layoutY="14.0" mnemonicParsing="false" onAction="#closePage" prefHeight="37.0" prefWidth="276.0" text="CLOSE" />
+      <Button fx:id="listTableStructure" layoutX="14.0" layoutY="127.0" mnemonicParsing="false" onAction="#listTableStructure" prefHeight="31.0" prefWidth="276.0" text="LIST SPECIFIC TABLE STRUCTURE" />
+      <TextField fx:id="tfTableName" layoutX="306.0" layoutY="127.0" prefHeight="31.0" prefWidth="276.0" promptText="TABLE NAME" />
+      <Button fx:id="listTableData" layoutX="14.0" layoutY="172.0" mnemonicParsing="false" onAction="#listTableData" prefHeight="31.0" prefWidth="276.0" text="LIST SPECIFIC TABLE DATA" />
+      <TextField fx:id="tfTableData" layoutX="306.0" layoutY="172.0" prefHeight="31.0" prefWidth="276.0" promptText="TABLE NAME" />
+      <Button fx:id="exportTableDataCsv" layoutX="14.0" layoutY="218.0" mnemonicParsing="false" onAction="#exportTableDataCsv" prefHeight="31.0" prefWidth="276.0" text="EXPORT SPECIFIC TABLE DATA(CSV)" />
+      <TextField fx:id="tfTableDataCsv" layoutX="306.0" layoutY="218.0" prefHeight="31.0" prefWidth="276.0" promptText="TABLE NAME" />
+      <TextArea fx:id="taCustomQuery" layoutX="14.0" layoutY="570.0" prefHeight="209.0" prefWidth="568.0" promptText="CUSTOM QUERY" />
+      <Button fx:id="listCustomQuery" layoutX="14.0" layoutY="528.0" mnemonicParsing="false" onAction="#listCustomQuery" prefHeight="31.0" prefWidth="568.0" text="LIST CUSTOM QUERY" />
+      <Button fx:id="importSql" layoutX="14.0" layoutY="265.0" mnemonicParsing="false" onAction="#importSqlFile" prefHeight="31.0" prefWidth="276.0" text="IMPORT QUERY FROM SQL FILE" />
+      <TextField fx:id="tfSqlAddress" layoutX="306.0" layoutY="265.0" prefHeight="31.0" prefWidth="276.0" promptText="SQL FILE ADDRESS " />
+      <Button fx:id="exportSchemaToXls" layoutX="14.0" layoutY="485.0" mnemonicParsing="false" onAction="#exportSchemaToXls" prefHeight="31.0" prefWidth="568.0" text="EXPORT SCHEMA TO XLS" />
+      <Button fx:id="importCsvTable" layoutX="14.0" layoutY="311.0" mnemonicParsing="false" onAction="#importCsvTable" prefHeight="31.0" prefWidth="276.0" text="IMPORT TABLE FROM CSV" />
+      <TextField fx:id="tfCsvAddress" layoutX="306.0" layoutY="311.0" prefHeight="31.0" prefWidth="276.0" promptText="CSV FILE ADDRESS " />
+      <Button fx:id="importXlsTable" layoutX="14.0" layoutY="357.0" mnemonicParsing="false" onAction="#importXlsTable" prefHeight="31.0" prefWidth="276.0" text="IMPORT TABLE FROM XLS" />
+      <TextField fx:id="tfXlsAddress" layoutX="306.0" layoutY="357.0" prefHeight="31.0" prefWidth="276.0" promptText="XLS FILE ADDRESS" />
+      <Button fx:id="exportDumpFile" layoutX="14.0" layoutY="400.0" mnemonicParsing="false" onAction="#exportDumpFile" prefHeight="31.0" prefWidth="276.0" text="EXPORT DUMP FILE" />
+      <Button fx:id="importDumpFile" layoutX="14.0" layoutY="442.0" mnemonicParsing="false" onAction="#importDumpFile" prefHeight="31.0" prefWidth="276.0" text="IMPORT DUMP FILE" />
+   </children>
+</AnchorPane>
